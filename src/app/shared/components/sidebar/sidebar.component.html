@@ -1,0 +1,32 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>Ridham Patel</h2>
+            <h4>example@email.com</h4>
+        </div>
+        <img src="https://scontent.famd3-1.fna.fbcdn.net/v/t1.0-9/64487026_2201447523258301_1581504844986843136_n.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=kya1VHn1kAsAX99xy2v&_nc_ht=scontent.famd3-1.fna&oh=c0d379895297851e8150ca67903ed76d&oe=5F1F12D8" alt="Ridham patel">
+    </div>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Pages</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Dashboard</a>
+    <a mat-list-item routerLink="/Posts">Posts</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Articles">Articles</a>
+
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>Tools</h2>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Contacts">
+        <mat-icon>import_contacts</mat-icon>
+        Contacts
+    </a>
+
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/Leads">
+        <mat-icon>contact_phone</mat-icon>
+        Leads
+    </a>
+
+</mat-nav-list>
